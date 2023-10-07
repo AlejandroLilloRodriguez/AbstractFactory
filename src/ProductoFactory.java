@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface ProductoFactory {
+public interface ProductoFactory {
+    Producto crearProducto();
 }

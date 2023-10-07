@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class CreateLenovoPortatil {
+public class CreateLenovoPortatil implements ProductoFactory{
+    public Producto crearProducto() {
+        return new LenovoPortatil(3);
+    }
 }

@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class CreateAcerPortatil {
+public class CreateAcerPortatil implements ProductoFactory{
+    public Producto crearProducto() {
+        return new AcerPortatil(1);
+    }
 }
+

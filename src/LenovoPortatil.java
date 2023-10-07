@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class LenovoPortatil {
+public class LenovoPortatil implements Producto {
+    private int id;
+    public LenovoPortatil(int id) {
+        this.id = id;
+    }
+    public String metodoComun() {
+        return "LenovoPortatil";
+    }
+
 }
